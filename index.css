@@ -1,0 +1,53 @@
+/* Selectors are just things/keywords,symbols we use to target html elements for styling */
+
+/* 1. Element Selector */
+/* body {
+  background-color: gray;
+}
+p {
+  color: red;
+  font-size: 24px;
+} */
+
+/* 2. class selector */
+/* .paragraph {
+  color: blue
+} */
+
+/* 3. ID selector */
+/* #paragraphId {
+  color: blueviolet;
+} */
+
+/* 4. Attribute selector */
+/* input[type="email"] {
+  border: 2px solid red
+} */
+
+/* 5. Descendant selector */
+
+/* div h1 {
+  color: red
+} */
+
+/* Specify the sytle in html structure */
+#mainText {
+  color: blue
+}
+p {
+  color: gray !important
+}
+.text {
+  color: purple
+}
+
+
+
+
+/* - inline styling: 1st priority */
+/* - ID selector: 2nd priority */
+/* - class selector: 3rd priority */
+/* -element selector: 4th */
+
+
+/* !important keyword */
